@@ -1,0 +1,40 @@
+.py", line 23, in <module>
+    api.authenticate()
+  File "/Users/keithellett/anaconda3/lib/python3.6/site-packages/kaggle/api/kaggle_api_extended.py", line 116, in authenticate
+    self.config_file, self.config_dir))
+OSError: Could not find kaggle.json. Make sure it's located in /Users/keithellett/.kaggle. Or use the environment method.
+dhcp-10-101-193-99:~ keithellett$ ls
+Applications	Downloads	Movies		Public
+Desktop		GNS3		Music		VirtualBox VMs
+Documents	Library		Pictures	anaconda3
+dhcp-10-101-193-99:~ keithellett$ ls -a
+.				.matplotlib
+..				.mongorc.js
+.CFUserTextEncoding		.mysql_history
+.DS_Store			.netrc
+.Trash				.pylint.d
+.anaconda			.python_history
+.bash_history			.ssh
+.bash_profile			.viminfo
+.bash_profile-anaconda3.bak	.vscode
+.bash_profile.pysave		.zoomus
+.bash_sessions			Applications
+.conda				Desktop
+.condarc			Documents
+.config				Downloads
+.cups				GNS3
+.dbshell			Library
+.gitconfig			Movies
+.idlerc				Music
+.ipynb_checkpoints		Pictures
+.ipython			Public
+.jupyter			VirtualBox VMs
+.kaggle				anaconda3
+.local
+dhcp-10-101-193-99:~ keithellett$ cd .kaggle/
+dhcp-10-101-193-99:.kaggle keithellett$ ls
+dhcp-10-101-193-99:.kaggle keithellett$ cp ~/Desktop/etl/resources/kaggle.json .
+dhcp-10-101-193-99:.kaggle keithellett$ ls
+kaggle.json
+dhcp-10-101-193-99:.kaggle keithellett$ cat kaggle.json 
+{"username":"elt2019","key":"6f2fc6b9ba793521ef5f42ea5231e5ab"}dhcp-10-101-193-99:.kaggle keithellett$ 
