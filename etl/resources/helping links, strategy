@@ -1,0 +1,27 @@
+sources of data that we will extract
+
+    https://www.kaggle.com/pschale/mlb-pitch-data-20152018#games.csv
+
+
+
+
+starter code possibilities
+
+    https://nu.bootcampcontent.com/NU-Coding-Bootcamp/NUCHI201811DATA2/blob/master/ClassContent/13-ETL-Project/1/Activities/01-Ins_ETL_Pandas/Solved/data_etl.ipynb
+
+    https://nu.bootcampcontent.com/NU-Coding-Bootcamp/NUCHI201811DATA2/blob/master/ClassContent/13-ETL-Project/1/Activities/02-Stu_ETL_Pandas_Local/Solved/pandas_etl.ipynb
+
+
+merge process
+    player id to game then to atbat
+
+
+The type of transformation needed for this data
+    cleaning
+    joining
+    filtering
+    aggregating
+
+csv to pandas, pandas join/merge/clean, pandas to json, json  to mongod, access mongo thru flask
+
+
